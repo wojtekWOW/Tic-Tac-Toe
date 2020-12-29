@@ -108,7 +108,7 @@ namespace WpfApp1
             //Set button text to the result
             button.Content = mPlayer1Turn ? "X" : "O";
 
-            //Change O to green
+            //Change O to red
             if (!mPlayer1Turn)
                 button.Foreground = Brushes.Red;
 
